@@ -1,5 +1,5 @@
 # sshReverseProxy
-Simple docker container used to reverse-proxy other (website) containers to an upstream ssh server.  This is useful for sending 
+Simple docker container used to reverse-proxy other (website) containers to an upstream ssh server.  This is useful for hosting a website (or other service on a TCP port) in a private homelab environment, and 'projecting' it to up to a cloud VM which will host it using it's public facing IP address.
 
 ![Overview](./docs/Overview.jpg)
 
